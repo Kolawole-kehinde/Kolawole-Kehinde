@@ -80,13 +80,14 @@ I enjoy learning, experimenting, and building things that push the boundaries of
 
 ---
 
-📊 GitHub Stats  
+📊 GitHub Stats: 
 
-![Kolawole's GitHub stats](https://github-readme-stats.vercel.app/api?username=kolawolekehinde&show_icons=true&theme=dark&count_private=true&include_all_commits=true)  
+![Kolawole's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kolawole-kehinde&show_icons=true&theme=dark&count_private=true&include_all_commits=true)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=kolawolekehinde&theme=dark&hide_border=true)](https://git.io/streak-stats)  
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kolawole-kehinde&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kolawolekehinde&layout=compact&theme=dark)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kolawole-kehinde&layout=compact&theme=dark)
+ 
 
 ---
 
