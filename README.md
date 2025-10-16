@@ -2,7 +2,7 @@
 
 <h3 align="left">🚀 About Me</h3>
 
-I’m a software developer with over 3 years of experience creating scalable, high-performing web applications.  
+I’m a software developer with years of experience creating scalable, high-performing web applications.  
 My focus is on building clean, efficient, and user-centered solutions using modern technologies like React, Next.js, and TypeScript.  
 
 I care about writing maintainable code, improving performance, and solving real-world problems through thoughtful engineering.  
@@ -12,7 +12,7 @@ Currently open to freelance, remote, and contract opportunities — let’s buil
 
 🛠 Tech Stack & Skills  
 
-- Frontend: React, Next.js, TypeScript, Redux, Redux Toolkit, React Query, HTML5, CSS/SCSS, Tailwind CSS  
+- Frontend: React, Next.js, TypeScript, Redux, Redux Toolkit, Zustand React Query, HTML5, CSS/SCSS, Tailwind CSS  
 - Backend / Integration: Supabase, REST APIs  
 - UI/UX: Mobile-first design, responsive layouts, accessible interfaces  
 - SDK Development: JavaScript SDKs  
@@ -69,7 +69,6 @@ I enjoy learning, experimenting, and building things that push the boundaries of
   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
   <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />  
   <img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
   <img src="https://img.shields.io/badge/Postgres-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
