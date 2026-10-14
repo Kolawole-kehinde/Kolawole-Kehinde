@@ -1,95 +1,184 @@
+
 <h1 align="left">Hi 👋, I'm Kolawole Kehinde</h1>
 
-<h3 align="left">🚀 About Me</h3>
+<h3 align="left">Backend Engineer | Node.js · NestJS · TypeScript · PostgreSQL</h3>
 
-I’m a software developer with years of experience creating scalable, high-performing web applications.  
-My focus is on building clean, efficient, and user-centered solutions using modern technologies like React, Next.js, and TypeScript.  
+I'm a software engineer with experience building web application features and integrating frontend interfaces with backend services.
 
-I care about writing maintainable code, improving performance, and solving real-world problems through thoughtful engineering.  
-Currently open to freelance, remote, and contract opportunities — let’s build something impactful together! 😊  
+My current focus is backend engineering with Node.js, Express.js, NestJS, TypeScript, PostgreSQL, Prisma, and Redis. I'm particularly interested in API development, authentication, authorization, payment processing, database transactions, event-driven architecture, and distributed systems.
 
----
-
-🛠 Tech Stack & Skills  
-
-- Frontend: React, Next.js, TypeScript, Redux, Redux Toolkit, Zustand React Query, HTML5, CSS/SCSS, Tailwind CSS  
-- Backend / Integration: Supabase, REST APIs  
-- UI/UX: Mobile-first design, responsive layouts, accessible interfaces  
-- SDK Development: JavaScript SDKs  
-- Testing: React Testing Library, Vitest  
-- Collaboration & Workflow: GitHub, Jira, ClickUp, Microsoft Teams  
+I enjoy understanding how systems work beyond the API layer, from managing concurrent requests and maintaining data consistency to building reliable asynchronous workflows.
 
 ---
 
-💡 What I Bring  
-- Experience building scalable, maintainable applications  
-- Strong understanding of frontend architecture and state management  
-- Hands-on experience with SaaS platforms and workflow-based systems  
-- A growth mindset and a habit of staying current with emerging tools and technologies  
+### 🛠️ Tech Stack & Skills
+
+**Backend Development**
+- Node.js, Express.js, NestJS, TypeScript
+- REST API design and development
+- Authentication, authorization, and Role-Based Access Control (RBAC)
+- Request validation, middleware, and modular application architecture
+
+**Databases & Data Management**
+- PostgreSQL, SQL, Prisma ORM
+- Drizzle ORM (learning)
+- Database relationships, transactions, and row-level locking
+- Data consistency and concurrency control
+
+**Caching & Reliability**
+- Redis and TTL caching
+- Background jobs and scheduled tasks
+- Transactional Outbox Pattern
+- Idempotency concepts and reconciliation workflows
+
+**Event-Driven Architecture**
+- Apache Kafka
+- Domain events and asynchronous event publishing
+- Kafka consumers and background processing
+- Asynchronous notification workflows
+
+**Payments & Security**
+- Paystack integration
+- Payment verification and webhook signature validation
+- Refresh tokens and session management
+- Security-event auditing
+
+**Tools & Workflow**
+- Docker and Docker Compose
+- Git and GitHub
+- Postman and Swagger
+- Supabase and Vercel
+
+**Frontend Development**
+- JavaScript and TypeScript
+- React and Next.js
+- Tailwind CSS
+- TanStack Query and Zustand
+- Responsive interfaces and reusable components
 
 ---
 
-🤝 Let’s Connect  
-I’m always open to collaborating on meaningful projects or exploring new opportunities.  
+### 🚀 Featured Projects
 
-You can:  
-- Follow me here on GitHub  
-- Reach out for collaborations or job discussions  
-- Or just say hi — I’m happy to connect  
+#### 🍽️ Foodie Backend — E-commerce API
+
+A backend-focused e-commerce project built to explore production-style API architecture, secure authentication, inventory management, payment processing, and asynchronous communication.
+
+**Tech Stack:** Node.js, Express.js, TypeScript, PostgreSQL, Prisma, Redis, Apache Kafka, Docker, Paystack
+
+- Designed a modular REST API architecture with separate routes, controllers, services, and repositories using dependency injection.
+- Implemented registration with email verification, authentication, refresh-token management, and session tracking.
+- Developed role-based permissions with Redis-backed permission caching and cache invalidation.
+- Added login-attempt tracking, temporary account lockout, and security-event auditing.
+- Built product catalog, order, and inventory workflows using database transactions, row-level locking, and expiring order reservations.
+- Integrated Paystack payment initialization, verification, refunds, and webhook signature validation.
+- Implemented the Transactional Outbox Pattern to persist domain events alongside database changes for reliable event publishing.
+- Used Apache Kafka to publish domain events and process notification workflows asynchronously.
+- Added background jobs for order expiration, cleanup, and payment and refund reconciliation.
+- Configured PostgreSQL and Redis with Docker Compose for local development.
+
+#### 💳 Digital Wallet & Double-Entry Ledger Engine — In Progress
+
+A backend-only fintech wallet system focused on financial consistency, ledger-based accounting, and reliable money movement.
+
+**Tech Stack:** NestJS, TypeScript, PostgreSQL, Drizzle ORM, Docker
+
+- Building a fintech backend with user authentication, multi-currency wallets, deposits, and wallet-to-wallet transfers.
+- Designing a double-entry ledger that records financial transactions through corresponding debit and credit entries.
+- Exploring database transactions and concurrency controls to maintain accurate balances and prevent race conditions.
+- Planning idempotency mechanisms to protect financial operations from duplicate requests.
+- Designing webhook verification and duplicate-event protection for reliable payment processing.
+- Planning auditable refund and reversal workflows that preserve historical ledger records.
+- Working toward role-based access control, reconciliation processes, and automated tests for financial integrity.
 
 ---
 
-🌱 Always Exploring  
-Technology never stands still — and that’s what keeps me motivated.  
-I enjoy learning, experimenting, and building things that push the boundaries of what’s possible. 🚀  
+### 💡 What I Bring
+
+- Experience building and maintaining web application features.
+- Practical experience integrating frontend applications with backend services.
+- Hands-on backend development involving authentication, payments, inventory workflows, and asynchronous processing.
+- An interest in database consistency, distributed systems, and designing for failure.
+- A focus on readable, maintainable code and continuous technical improvement.
 
 ---
 
-🌐 Connect with me:
+### 🌱 Currently Learning
+
+- NestJS architecture and backend application development
+- Advanced Node.js and asynchronous programming
+- Database transactions, concurrency, and isolation
+- Distributed systems and event-driven architecture
+- Reliable payment processing and double-entry ledger design
+- System design and production-grade backend engineering
+
+---
+
+### 🤝 Let's Connect
+
+I'm open to backend engineering opportunities, collaborations, and projects where I can contribute, learn, and build reliable software.
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/kehinde-kolawole-905308255/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/kehinde-kolowole-905308255/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Kolawole-kehinde">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://kolawolekehinde.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="mailto:kolawolekehinde7033@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
 ---
 
-💻 Tech Stack:
+### 💻 Technologies
 
 <p align="left">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />  
-  <img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postgres-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma"/>
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" alt="Drizzle ORM"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Paystack-00C3F7?style=for-the-badge&logoColor=white" alt="Paystack"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logoColor=white" alt="Zustand"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
 </p>
 
 ---
 
-📊 GitHub Stats: 
+### 📊 GitHub Stats
 
-![Kolawole's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kolawole-kehinde&show_icons=true&theme=dark&count_private=true&include_all_commits=true)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Kolawole-kehinde&show_icons=true&theme=dark&include_all_commits=true" alt="Kolawole's GitHub stats"/>
+</p>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kolawole-kehinde&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+<p align="left">
+  <img src="https://streak-stats.demolab.com?user=Kolawole-kehinde&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+</p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kolawole-kehinde&layout=compact&theme=dark)
- 
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kolawole-kehinde&layout=compact&theme=dark" alt="Top Languages"/>
+</p>
 
 ---
 
 <!--
-kolawolekehinde/kolawolekehinde is a special repository because its README.md (this file) appears on your GitHub profile.
+This README appears on the GitHub profile for Kolawole-kehinde.
 -->
