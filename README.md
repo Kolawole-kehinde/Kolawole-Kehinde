@@ -56,42 +56,6 @@ I enjoy understanding how systems work beyond the API layer, from managing concu
 - TanStack Query and Zustand
 - Responsive interfaces and reusable components
 
----
-
-### 🚀 Featured Projects
-
-#### 🍽️ Foodie Backend — E-commerce API
-
-A backend-focused e-commerce project built to explore production-style API architecture, secure authentication, inventory management, payment processing, and asynchronous communication.
-
-**Tech Stack:** Node.js, Express.js, TypeScript, PostgreSQL, Prisma, Redis, Apache Kafka, Docker, Paystack
-
-- Designed a modular REST API architecture with separate routes, controllers, services, and repositories using dependency injection.
-- Implemented registration with email verification, authentication, refresh-token management, and session tracking.
-- Developed role-based permissions with Redis-backed permission caching and cache invalidation.
-- Added login-attempt tracking, temporary account lockout, and security-event auditing.
-- Built product catalog, order, and inventory workflows using database transactions, row-level locking, and expiring order reservations.
-- Integrated Paystack payment initialization, verification, refunds, and webhook signature validation.
-- Implemented the Transactional Outbox Pattern to persist domain events alongside database changes for reliable event publishing.
-- Used Apache Kafka to publish domain events and process notification workflows asynchronously.
-- Added background jobs for order expiration, cleanup, and payment and refund reconciliation.
-- Configured PostgreSQL and Redis with Docker Compose for local development.
-
-#### 💳 Digital Wallet & Double-Entry Ledger Engine — In Progress
-
-A backend-only fintech wallet system focused on financial consistency, ledger-based accounting, and reliable money movement.
-
-**Tech Stack:** NestJS, TypeScript, PostgreSQL, Drizzle ORM, Docker
-
-- Building a fintech backend with user authentication, multi-currency wallets, deposits, and wallet-to-wallet transfers.
-- Designing a double-entry ledger that records financial transactions through corresponding debit and credit entries.
-- Exploring database transactions and concurrency controls to maintain accurate balances and prevent race conditions.
-- Planning idempotency mechanisms to protect financial operations from duplicate requests.
-- Designing webhook verification and duplicate-event protection for reliable payment processing.
-- Planning auditable refund and reversal workflows that preserve historical ledger records.
-- Working toward role-based access control, reconciliation processes, and automated tests for financial integrity.
-
----
 
 ### 💡 What I Bring
 
